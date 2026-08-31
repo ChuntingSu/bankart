@@ -34,8 +34,8 @@ for p in plan:
 st.header("📏 ROM Limitation")
 rom = [
     "Flexion ≤ 160°",
-    "ER ≤ 90° at 90° abduction",
-    "IR ≤ 60° at 90° abduction"
+    "External rotation ≤ 90° at 90° abduction",
+    "Internal rotation ≤ 60° at 90° abduction"
 ]
 for r in rom:
     st.write(f"- {r}")
