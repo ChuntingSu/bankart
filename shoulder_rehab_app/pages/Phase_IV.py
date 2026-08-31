@@ -21,6 +21,9 @@ criteria = [
 for c in criteria:
     st.write(f"- {c}")
 
+# 指向 Phase V 的動態提示區塊與箭頭
+st.info("➡️ **Next Phase: Phase V – Return to Activity (Months 7–9)**")
+
 st.header("📝 Plan")
 plan = [
     "Continue isotonic and proprioceptive drills",
