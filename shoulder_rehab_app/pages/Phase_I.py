@@ -38,7 +38,7 @@ st.header("📏 ROM Limitation")
 rom = [
     "Flexion ≤ 70° (Week 1)",
     "Flexion ≤ 90° (Week 2)",
-    "ER ≤ 10°, IR ≤ 30° (pain-free)"
+    "External rotation ≤ 10°, Internal rotation ≤ 30° (pain-free)"
 ]
 for r in rom:
     st.write(f"- {r}")
