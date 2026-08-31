@@ -21,6 +21,9 @@ criteria = [
 for c in criteria:
     st.write(f"- {c}")
 
+# 指向 Phase IV 的動態提示區塊與箭頭
+st.info("➡️ **Next Phase: Phase IV – Advanced Strengthening (Week 21–24)**")
+
 st.header("📝 Plan")
 plan = [
     "Continue mobility and strengthening",
