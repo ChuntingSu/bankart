@@ -22,6 +22,9 @@ criteria = [
 for c in criteria:
     st.write(f"- {c}")
 
+# 指向 Return to Sport 的最終解封提示區塊與箭頭
+st.success("➡️ **Next Stage: FULL RETURN TO SPORT (Unrestricted Participation)**")
+
 st.header("📝 Plan")
 plan = [
     "Progress to unrestricted participation",
