@@ -14,11 +14,13 @@ for g in goals:
 
 st.header("✅ Criteria to Enter Next Phase")
 criteria = [
-    "Completion of 6 weeks post-surgery",
-    "Pain and inflammation controlled"
+    "Progress on schedule in the absence of complications"
 ]
 for c in criteria:
     st.write(f"- {c}")
+
+# 指向 Phase II 的動態提示區塊與箭頭
+st.info("➡️ **Next Phase: Phase II – Protection (Week 7–14)**")
 
 st.header("📝 Plan")
 plan = [
